@@ -40,7 +40,7 @@ const Hero = () => {
                     CREANDO
                 </motion.h1>
             </div>
-            <div className="overflow-hidden">
+            <div className="overflow-hidden pt-2">
                 <motion.h1
                     initial={{ y: 100 }}
                     animate={{ y: 0 }}
