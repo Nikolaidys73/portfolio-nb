@@ -44,7 +44,7 @@ const ContactForm = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
             onSubmit={handleSubmit}
-            className="w-full max-w-lg mx-auto space-y-8 p-8 bg-slate-900/40 backdrop-blur-xl rounded-3xl border border-slate-700/50 shadow-2xl relative overflow-hidden group"
+            className="w-full max-w-lg mx-auto space-y-8 p-6 sm:p-8 bg-slate-900/40 backdrop-blur-xl rounded-3xl border border-slate-700/50 shadow-2xl relative overflow-hidden group"
         >
             <div className="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-purple-500/5 pointer-events-none" />
 

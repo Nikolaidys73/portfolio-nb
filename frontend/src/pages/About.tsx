@@ -28,12 +28,12 @@ const About = () => {
                 animate="visible"
                 className="max-w-5xl mx-auto px-6 relative z-10"
             >
-                <div className="flex flex-col md:flex-row gap-12 items-start">
+                <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
                     {/* Left Column: Title and Image */}
                     <div className="w-full md:w-1/3 flex flex-col gap-8">
                         <motion.h1
                             variants={itemVariants}
-                            className="text-5xl md:text-7xl font-bold tracking-tighter"
+                            className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter"
                         >
                             SOBRE <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">MÍ.</span>

@@ -35,7 +35,7 @@ const Hero = () => {
                     initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.8, ease: "circOut", delay: 0.4 }}
-                    className="text-6xl md:text-8xl font-bold tracking-tighter mb-2"
+                    className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-2"
                 >
                     CREANDO
                 </motion.h1>
@@ -45,7 +45,7 @@ const Hero = () => {
                     initial={{ y: 100 }}
                     animate={{ y: 0 }}
                     transition={{ duration: 0.8, ease: "circOut", delay: 0.5 }}
-                    className="text-6xl md:text-8xl font-bold tracking-tighter mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+                    className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                 >
                     EXPERIENCIAS DIGITALES
                 </motion.h1>
