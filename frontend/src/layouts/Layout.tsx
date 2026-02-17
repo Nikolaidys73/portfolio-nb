@@ -51,7 +51,7 @@ const Layout = () => {
                         className="hover:text-pink-500 transition-colors cursor-none"
                         onClick={() => toast("Explorando Trabajos")}
                     >
-                        TRABAJOS
+                        INICIO
                     </Link>
                     <Link
                         to="/about"

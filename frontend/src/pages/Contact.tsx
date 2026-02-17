@@ -19,9 +19,9 @@ const Contact = () => {
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.2 }}
-                        className="text-5xl md:text-7xl font-bold mb-6 tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white via-pink-200 to-purple-400 drop-shadow-sm"
+                        className="text-4xl md:text-6xl font-bold mb-6 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-pink-200 to-pink-500"
                     >
-                        CONECTEMOS
+                        ME GUSTARÍA<br />CONOCERTE MÁS
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0 }}
