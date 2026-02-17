@@ -11,13 +11,14 @@ const Contact = () => {
                 className="w-full max-w-4xl"
             >
                 <div className="text-center mb-16">
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6">HABLEMOS</h1>
+                    <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-pink-200 to-pink-500">
+                        ME GUSTARÍA<br />CONOCERTE MÁS
+                    </h1>
                     <p className="text-slate-400 text-lg">
                         ¿Tienes un proyecto en mente? ¿Buscas un socio? <br />
                         Envíame un mensaje y creemos algo increíble.
                     </p>
                 </div>
-
                 <ContactForm />
             </motion.div>
         </section>
