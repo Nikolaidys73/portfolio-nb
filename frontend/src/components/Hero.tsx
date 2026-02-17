@@ -47,7 +47,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, ease: "circOut", delay: 0.5 }}
                     className="text-6xl md:text-8xl font-bold tracking-tighter mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
                 >
-                    SUEÑOS DIGITALES
+                    EXPERIENCIAS DIGITALES
                 </motion.h1>
             </div>
 
