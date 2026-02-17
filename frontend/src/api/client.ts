@@ -1,6 +1,9 @@
 import type { Project, ContactMessage } from '../types';
 
-const API_BASE_URL = 'http://localhost:5162/api'; // ASP.NET Core API URL
+// Use environment variable if available, otherwise fallback to localhost
+const API_BASE_URL = import.meta.env.VITE_API_URL
+    ? `${import.meta.env.VITE_API_URL}/api`
+    : 'http://localhost:5162/api';
 
 export const getProjects = async (): Promise<Project[]> => {
     try {
